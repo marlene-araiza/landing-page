@@ -1,0 +1,82 @@
+body {
+   margin: 0px; 
+}
+
+.SectionOne {
+    background-color: #1F2937;
+    font-family: Roboto;
+    padding-top: 20px;
+    padding-bottom: 40px;
+    padding-left: 200px;
+    padding-right: 200px;  
+}
+
+.header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-bottom: 150px;
+}
+
+.HeaderLogo {
+    color: #F9FAF8;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.HeaderLinks {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-content: center;
+}
+
+h1{
+    font-size: 48px;
+    color: #F9FAF8;
+    font-weight: 900;
+}
+
+a , h2 {
+    text-decoration: none;
+    color: #E5E7EB;
+    font-size: 18px;
+    font-weight: 100;
+}
+
+.LinkOne {
+    padding-right: 20px;
+}
+
+.LinkTwo {
+    padding-right: 20px;
+}
+
+.Whatever {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.image {
+    background-color: grey;
+    color: #E5E7EB;
+    font-size: 18px;
+    font-weight: 100;
+    padding: 100px 150px;
+}
+
+button {
+    background-color: #3882F6;
+    border-radius: 5px;
+    border-style: none;
+    font-weight: bold;
+    color: #F9FAF8;
+    font-size: 18px;
+    padding: 10px 25px;
+}
+
+.Text {
+    padding-right: 40px;
+}
